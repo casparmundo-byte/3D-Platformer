@@ -6,6 +6,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float movementSpeed = 7f;
     [SerializeField] float jumpForce = 7f;
 
+    [SerializeField] Transform groundCheck;
+    [SerializeField] LayerMask ground; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,9 +23,15 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = new Vector3(horizontalInput * movementSpeed, rb.linearVelocity.y, verticalInput * movementSpeed);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
         }
     }
+    
+    bool IsGrounded()
+    {
+        return Physics.CheckSphere(groundCheck.position, .1f, ground);
+    }
+    
 }
