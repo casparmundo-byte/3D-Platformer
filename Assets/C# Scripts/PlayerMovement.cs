@@ -6,9 +6,9 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
     [SerializeField] float movementSpeed = 7f;
     [SerializeField] float jumpForce = 7f;
-
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
+    
     [SerializeField] float mouseSensitivity = 0.15f;
     InputAction lookAction;
 
@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
         lookAction = InputSystem.actions.FindAction("Look");
         Cursor.lockState = CursorLockMode.Locked;
+
         rb = GetComponent<Rigidbody>();
     }
 
@@ -26,22 +27,32 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         float mouseX = lookAction.ReadValue<Vector2>().x * mouseSensitivity;
-        float mouseY = lookAction.ReadValue<Vector2>().y * mouseSensitivity;
-        
         transform.Rotate(0f, mouseX, 0f);
-        transform.Rotate(0f, mouseY, 0f);
+        
 
-        Vector2 move = (transform.forward * Input.GetAxis("Vertical") + transform.right * Input.GetAxis("Horizontal") * movementSpeed);
-        rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, rb.linearVelocity.z);
-
-        rb.linearVelocity = new Vector3(horizontalInput * movementSpeed, rb.linearVelocity.y, verticalInput * movementSpeed);
+        Vector3 move = (transform.forward * Input.GetAxis("Vertical") + transform.right * Input.GetAxis("Horizontal")) * movementSpeed;
+        rb.linearVelocity = new Vector3(move.x, rb.linearVelocity.y, move.z);
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
+            Jump();
         }
     }
-    
+
+    void Jump()
+    {
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy Head"))
+        {
+            Destroy(collision.transform.parent.gameObject);
+            Jump();
+        }
+    }
+
     bool IsGrounded()
     {
         return Physics.CheckSphere(groundCheck.position, .1f, ground);

@@ -1,17 +1,34 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+    private void Update()
     {
-        if (collision.gameObject.CompareTag("Enemy Body"))
+        if (transform.position.y < -1f)
         {
             Die();
         }
     }
-
-    void Die
+    private void OnCollisionEnter(Collision collision)
     {
-        GetComponent<MeshRenderer>().enabled = false;
+       if (collision.gameObject.CompareTag("Enemy Body"))
+        {
+            GetComponent<MeshRenderer>().enabled = false;
+            GetComponent<Rigidbody>().isKinematic = true;
+            GetComponent<PlayerMovement>().enabled = false;
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Invoke(nameof(ReloadLevel), 1.5f);
+    }
+
+
+    void ReloadLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

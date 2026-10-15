@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy Body
+  - Enemy Head
+  - Collectible
   layers:
   - Default
   - TransparentFX
