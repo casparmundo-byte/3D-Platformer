@@ -7,6 +7,7 @@ TagManager:
   - Enemy Body
   - Enemy Head
   - Collectible
+  - Bullets
   layers:
   - Default
   - TransparentFX
