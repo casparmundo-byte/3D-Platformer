@@ -5,6 +5,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     int Bullets = 0;
     
     [SerializeField] TMP_Text bulletsText;
+    [SerializeField] AudioSource collectSound;
 
     private void OnTriggerEnter(Collider other)
     {

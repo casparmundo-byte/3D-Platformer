@@ -2,11 +2,32 @@ using UnityEngine;
 
 public class StickyPlatform : MonoBehaviour
 {
+    Vector3 lastPosition;
+    Rigidbody playerRb;
+
+    void Start()
+    {
+        lastPosition = transform.position;
+    }
+
+    void FixedUpdate()
+    {
+        Vector3 platformMove = transform.position - lastPosition;
+
+        if (playerRb != null)
+        {
+            playerRb.MovePosition(playerRb.position + platformMove);
+        }
+
+        lastPosition = transform.position;
+    }
+
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "Player")
         {
-            collision.gameObject.transform.SetParent(transform);
+            playerRb = collision.rigidbody;
         }
     }
 
@@ -14,7 +35,7 @@ public class StickyPlatform : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            collision.gameObject.transform.SetParent(null);
+            playerRb = null;
         }
     }
 }
