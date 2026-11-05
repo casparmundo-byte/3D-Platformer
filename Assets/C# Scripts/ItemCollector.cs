@@ -1,9 +1,10 @@
-using UnityEngine;
 using TMPro;
-public class NewMonoBehaviourScript : MonoBehaviour
+using UnityEngine;
+
+public class ItemCollector : MonoBehaviour
 {
     int Bullets = 0;
-    
+
     [SerializeField] TMP_Text bulletsText;
     [SerializeField] AudioSource collectSound;
 
@@ -15,8 +16,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
             Destroy(other.gameObject);
             Bullets++;
-            bulletsText.text="Bullets:";
-            
+            bulletsText.text = "Bullets:";
+
         }
     }
 }
