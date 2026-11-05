@@ -1,22 +1,21 @@
-using TMPro;
-using UnityEngine;
 
+using UnityEngine;
+using TMPro;
 public class ItemCollector : MonoBehaviour
 {
-    int Bullets = 0;
+    int coins = 0;
 
-    [SerializeField] TMP_Text bulletsText;
+    [SerializeField] TMP_Text coinsText;
     [SerializeField] AudioSource collectSound;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bullets"))
+        if (other.gameObject.CompareTag("Coins"))
         {
-            float Bullets = 0f;
 
             Destroy(other.gameObject);
-            Bullets++;
-            bulletsText.text = "Bullets:";
+            coins++;
+            coinsText.text = "Coins: " + coins;
 
         }
     }
