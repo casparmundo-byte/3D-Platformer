@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Enemy Body
   - Enemy Head
-  - Collectible
-  - Bullets
   - Coin
   layers:
   - Default
