@@ -6,6 +6,7 @@ public class ItemCollector : MonoBehaviour
     int coins = 0;
 
     [SerializeField] TextMeshProUGUI coinText;
+    [SerializeField] AudioSource collectSound;
 
     void OnTriggerEnter(Collider other)
     {
