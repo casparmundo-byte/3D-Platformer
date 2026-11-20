@@ -4893,6 +4893,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 935704772}
     m_Modifications:
+    - target: {fileID: 1419274116271078453, guid: 7c5eb2f5bb1845141a8e0c504872731d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.528
+      objectReference: {fileID: 0}
     - target: {fileID: 1935979391697884448, guid: 7c5eb2f5bb1845141a8e0c504872731d, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.46
@@ -25135,7 +25139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   coinText: {fileID: 1723218332}
-  collectSound: {fileID: 0}
+  Pistol_ClipIn_05: {fileID: 0}
 --- !u!1001 &1464034961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32993,6 +32997,10 @@ PrefabInstance:
     - target: {fileID: 6787254565616421071, guid: 4e2f710e5c07a4b4581c5e3029c96292, type: 3}
       propertyPath: m_Name
       value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6787254565616421071, guid: 4e2f710e5c07a4b4581c5e3029c96292, type: 3}
+      propertyPath: m_TagString
+      value: Ammo
       objectReference: {fileID: 0}
     - target: {fileID: 8760434793291509820, guid: 4e2f710e5c07a4b4581c5e3029c96292, type: 3}
       propertyPath: speedX
