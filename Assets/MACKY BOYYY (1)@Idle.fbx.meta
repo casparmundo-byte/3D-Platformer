@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 4b97849761dd4bd42ab98998d2cb692e
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: MACKY BOYYY (1)@Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character__2_:Mack_character:Mack_character:back
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0, y: 0, z: -10.000999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:pCube1
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0.00071558636, y: 0.103656195, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.057882, y: 5.8710527, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:transform2
+      parentName: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:back
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0, y: 0, z: -10.000999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:pSphere1
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0.0011034133, y: 0.14616284, z: 0.000014161467}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.3821445, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:transform1
+      parentName: Mack_Character_FINAL:Mack_Character__2_:pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:pCube2
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0.0012217134, y: 0.07833776, z: 0.0015576184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:transform2
+      parentName: Mack_Character_FINAL:Mack_Character__2_:Mack_character:Mack_character:pCube2
+      position: {x: 0.0012217134, y: -0.07833776, z: -0.0015576184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Mack_Character__2_:pSphere2
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0.0011479852, y: 0.15292796, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8925683, y: 0.8710692, z: 1.1191149}
+    - name: Mack_Character_FINAL:transform3
+      parentName: Mack_Character_FINAL:Mack_Character__2_:pSphere2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:pCube1
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0.042454395, y: 0.07320798, z: 0.0016291525}
+      rotation: {x: -0.011891396, y: -0.1070409, z: -0.109770626, w: 0.9881049}
+      scale: {x: 0.5348635, y: 0.9754841, z: 0.75695235}
+    - name: Mack_Character_FINAL:transform4
+      parentName: Mack_Character_FINAL:pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:pCube2
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: 0.04639038, y: 0.07320798, z: -0.0052761957}
+      rotation: {x: -0.23148838, y: 0.9723065, z: 0.008316399, w: 0.031050758}
+      scale: {x: 0.5348635, y: 0.9754841, z: 0.75695235}
+    - name: Mack_Character_FINAL:transform1
+      parentName: Mack_Character_FINAL:pCube2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:pCube3
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Hips
+      parentName: MACKY BOYYY (1)@Idle(Clone)
+      position: {x: -0.000020354873, y: 0.07782705, z: -0.00067891926}
+      rotation: {x: 0.0000000043655746, y: -0.000000023283064, z: 0.000000002910383, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftUpLeg
+      parentName: Mack_Character_FINAL:Hips
+      position: {x: -0.006521041, y: -0.0060281083, z: -0.00029391673}
+      rotation: {x: 0.00023152916, y: -0.004839447, z: 0.99884623, w: 0.04777833}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: Mack_Character_FINAL:LeftLeg
+      parentName: Mack_Character_FINAL:LeftUpLeg
+      position: {x: -2.5723495e-11, y: 0.03396911, z: -9.6642945e-12}
+      rotation: {x: 0.020693535, y: 0.0010352732, z: 0.049954932, w: 0.9985366}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftFoot
+      parentName: Mack_Character_FINAL:LeftLeg
+      position: {x: -7.0632974e-12, y: 0.027899642, z: 5.91106e-11}
+      rotation: {x: 0.44649327, y: 0.006107859, z: -0.0030478938, w: 0.894761}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000002}
+    - name: Mack_Character_FINAL:LeftToeBase
+      parentName: Mack_Character_FINAL:LeftFoot
+      position: {x: -1.5933593e-11, y: 0.013912646, z: 5.659375e-10}
+      rotation: {x: 0.2672074, y: 0.013700312, z: -0.0037993426, w: 0.96353424}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: Mack_Character_FINAL:LeftToe_End
+      parentName: Mack_Character_FINAL:LeftToeBase
+      position: {x: 4.961813e-12, y: 0.005166293, z: 9.961944e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:RightUpLeg
+      parentName: Mack_Character_FINAL:Hips
+      position: {x: 0.006521041, y: -0.0060281083, z: -0.00024139001}
+      rotation: {x: 0.00012120693, y: 0.0025325525, z: 0.99885464, w: -0.047780354}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000002}
+    - name: Mack_Character_FINAL:RightLeg
+      parentName: Mack_Character_FINAL:RightUpLeg
+      position: {x: -8.234633e-11, y: 0.03396796, z: 9.1681124e-12}
+      rotation: {x: -0.0011733822, y: 0.00005873839, z: -0.049966365, w: 0.99875027}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightFoot
+      parentName: Mack_Character_FINAL:RightLeg
+      position: {x: 2.254401e-12, y: 0.027885845, z: 1.2175699e-12}
+      rotation: {x: 0.46446255, y: -0.005805638, z: 0.0030449315, w: 0.88556856}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Mack_Character_FINAL:RightToeBase
+      parentName: Mack_Character_FINAL:RightFoot
+      position: {x: 7.486069e-12, y: 0.014145366, z: 3.7463613e-10}
+      rotation: {x: 0.26257348, y: -0.013772888, z: 0.0037483424, w: 0.96480644}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightToe_End
+      parentName: Mack_Character_FINAL:RightToeBase
+      position: {x: 5.362639e-12, y: 0.005307213, z: 2.686456e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Spine
+      parentName: Mack_Character_FINAL:Hips
+      position: {x: -0, y: 0.010855693, z: -0.000033568365}
+      rotation: {x: -0.001546115, y: 0.000000046570577, z: -0.000000002838383, w: 0.9999988}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Mack_Character_FINAL:Spine1
+      parentName: Mack_Character_FINAL:Spine
+      position: {x: -0, y: 0.012665037, z: 4.519674e-13}
+      rotation: {x: 0.0000000027939677, y: -0.000000023300954, z: 0.000000005748743, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: Mack_Character_FINAL:Spine2
+      parentName: Mack_Character_FINAL:Spine1
+      position: {x: -0, y: 0.014474328, z: -1.4420997e-12}
+      rotation: {x: -0.000000017578714, y: -0.000000011641477, z: -3.5998128e-11, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Mack_Character_FINAL:Neck
+      parentName: Mack_Character_FINAL:Spine2
+      position: {x: -0, y: 0.016283609, z: -1.4814034e-11}
+      rotation: {x: 0.0015461255, y: 0.000000023274037, z: 0.0000000058567564, w: 0.9999988}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Mack_Character_FINAL:Head
+      parentName: Mack_Character_FINAL:Neck
+      position: {x: -0, y: 0.0076820753, z: -0.00007288896}
+      rotation: {x: -0.000000011641532, y: -0.000000023283063, z: -0.000000005820766, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Mack_Character_FINAL:HeadTop_End
+      parentName: Mack_Character_FINAL:Head
+      position: {x: -0, y: 0.025567932, z: -0.00024259336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:RightShoulder
+      parentName: Mack_Character_FINAL:Spine2
+      position: {x: 0.0067856046, y: 0.013440566, z: -0.00015344142}
+      rotation: {x: -0.56790394, y: -0.41711318, z: 0.58034265, w: -0.40829417}
+      scale: {x: 1.0000001, y: 1, z: 0.99999976}
+    - name: Mack_Character_FINAL:RightArm
+      parentName: Mack_Character_FINAL:RightShoulder
+      position: {x: -9.389144e-12, y: 0.012309626, z: 3.7180037e-11}
+      rotation: {x: -0.13622485, y: -0.0014218093, z: 0.005117268, w: 0.99066377}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Mack_Character_FINAL:RightForeArm
+      parentName: Mack_Character_FINAL:RightArm
+      position: {x: -3.052742e-11, y: 0.02282045, z: -1.8273823e-10}
+      rotation: {x: 0.0073241573, y: -0.00611548, z: -0.013333195, w: 0.9998656}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1}
+    - name: Mack_Character_FINAL:RightHand
+      parentName: Mack_Character_FINAL:RightForeArm
+      position: {x: -9.27031e-12, y: 0.026438726, z: -3.494464e-10}
+      rotation: {x: -0.035333175, y: -0.064169034, z: -0.039914824, w: -0.9965143}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandThumb1
+      parentName: Mack_Character_FINAL:RightHand
+      position: {x: -0.0028754084, y: 0.0038253549, z: -0.000084454434}
+      rotation: {x: -0.022399861, y: -0.007284848, z: 0.31848055, w: 0.94763666}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: Mack_Character_FINAL:RightHandThumb2
+      parentName: Mack_Character_FINAL:RightHandThumb1
+      position: {x: -0.0004319037, y: 0.0038045836, z: 7.102265e-11}
+      rotation: {x: 0.0063973116, y: -0.000011331402, z: 0.0747039, w: 0.9971853}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandThumb3
+      parentName: Mack_Character_FINAL:RightHandThumb2
+      position: {x: 0.00029190475, y: 0.0026123568, z: -4.035937e-11}
+      rotation: {x: 0.038399667, y: 0.0004287554, z: -0.0018897336, w: 0.99926066}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandThumb4
+      parentName: Mack_Character_FINAL:RightHandThumb3
+      position: {x: 0.00013999875, y: 0.0018387928, z: -1.5467094e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:RightHandPinky1
+      parentName: Mack_Character_FINAL:RightHand
+      position: {x: 0.003280628, y: 0.010615626, z: 0.00020121572}
+      rotation: {x: -0.063986205, y: -0.0015700494, z: 0.024479583, w: 0.99764925}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandPinky2
+      parentName: Mack_Character_FINAL:RightHandPinky1
+      position: {x: -0.00008227673, y: 0.004111924, z: -3.5474265e-10}
+      rotation: {x: 0.038254358, y: -0.00036474876, z: 0.008578729, w: 0.9992312}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandPinky3
+      parentName: Mack_Character_FINAL:RightHandPinky2
+      position: {x: 0.000025985559, y: 0.0032538746, z: -6.956411e-11}
+      rotation: {x: 0.04271229, y: -0.0000000385124, z: 0.00000001135486, w: 0.99908745}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    - name: Mack_Character_FINAL:RightHandPinky4
+      parentName: Mack_Character_FINAL:RightHandPinky3
+      position: {x: 0.00005629118, y: 0.002840234, z: 6.6420966e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:RightHandMiddle1
+      parentName: Mack_Character_FINAL:RightHand
+      position: {x: -0.0013475907, y: 0.010039265, z: -0.00025821282}
+      rotation: {x: 0.02560623, y: 0.00015132129, z: 0.0059082075, w: 0.99965465}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandMiddle2
+      parentName: Mack_Character_FINAL:RightHandMiddle1
+      position: {x: -0.000032911823, y: 0.0036813458, z: 8.92795e-11}
+      rotation: {x: 0.018546598, y: -0.0000000051950333, z: 0.0000000024147082, w: 0.99982804}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandMiddle3
+      parentName: Mack_Character_FINAL:RightHandMiddle2
+      position: {x: -0.000011148478, y: 0.0037361113, z: 5.702353e-11}
+      rotation: {x: 0.04018717, y: 0.0001107438, z: 0.002823274, w: 0.9991882}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandMiddle4
+      parentName: Mack_Character_FINAL:RightHandMiddle3
+      position: {x: 0.00004406025, y: 0.002837277, z: 9.770211e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:RightHandIndex1
+      parentName: Mack_Character_FINAL:RightHand
+      position: {x: -0.003102653, y: 0.010884532, z: -0.00009553478}
+      rotation: {x: 0.069483936, y: 0.003370731, z: 0.0538341, w: 0.99612373}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: Mack_Character_FINAL:RightHandIndex2
+      parentName: Mack_Character_FINAL:RightHandIndex1
+      position: {x: -0.000048768143, y: 0.0025623988, z: -1.3083072e-11}
+      rotation: {x: 0.023744907, y: -0.00000007404014, z: -0.0000000033760439, w: 0.9997181}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999994}
+    - name: Mack_Character_FINAL:RightHandIndex3
+      parentName: Mack_Character_FINAL:RightHandIndex2
+      position: {x: -0.000029960527, y: 0.0023568394, z: 1.08913946e-11}
+      rotation: {x: 0.033205345, y: 0.00236884, z: 0.022349238, w: 0.9991959}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: Mack_Character_FINAL:RightHandIndex4
+      parentName: Mack_Character_FINAL:RightHandIndex3
+      position: {x: 0.00007872866, y: 0.0019277474, z: 3.8031103e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:RightHandRing1
+      parentName: Mack_Character_FINAL:RightHand
+      position: {x: 0.0011696158, y: 0.010660265, z: 0.00016355372}
+      rotation: {x: -0.023145903, y: -0.0006430968, z: 0.02776354, w: 0.9993464}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Mack_Character_FINAL:RightHandRing2
+      parentName: Mack_Character_FINAL:RightHandRing1
+      position: {x: -0.000089977664, y: 0.004119963, z: 3.657341e-13}
+      rotation: {x: 0.03922701, y: -0.00040897736, z: 0.0058116075, w: 0.99921334}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000004}
+    - name: Mack_Character_FINAL:RightHandRing3
+      parentName: Mack_Character_FINAL:RightHandRing2
+      position: {x: 0.0000049334035, y: 0.0038898636, z: -4.300868e-11}
+      rotation: {x: 0.038712684, y: 0.00072664104, z: 0.007394227, w: 0.99922276}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999997}
+    - name: Mack_Character_FINAL:RightHandRing4
+      parentName: Mack_Character_FINAL:RightHandRing3
+      position: {x: 0.00008504423, y: 0.0031094542, z: 3.360472e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftShoulder
+      parentName: Mack_Character_FINAL:Spine2
+      position: {x: -0.0067856046, y: 0.01343967, z: 0.00013585591}
+      rotation: {x: 0.5797312, y: -0.408657, z: 0.56858087, w: 0.4166858}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:LeftArm
+      parentName: Mack_Character_FINAL:LeftShoulder
+      position: {x: 1.6227155e-11, y: 0.012309625, z: 1.047465e-10}
+      rotation: {x: -0.13625239, y: -0.00062926096, z: 0.0047962954, w: 0.99066234}
+      scale: {x: 1, y: 0.9999996, z: 0.9999999}
+    - name: Mack_Character_FINAL:LeftForeArm
+      parentName: Mack_Character_FINAL:LeftArm
+      position: {x: -2.7306096e-12, y: 0.02281298, z: 4.467703e-10}
+      rotation: {x: 0.01080804, y: -0.0003742906, z: -0.00094804075, w: 0.99994105}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Mack_Character_FINAL:LeftHand
+      parentName: Mack_Character_FINAL:LeftForeArm
+      position: {x: 9.914906e-12, y: 0.026183387, z: -4.792765e-11}
+      rotation: {x: 0.022837102, y: 0.10443321, z: -0.014837347, w: 0.994159}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandThumb1
+      parentName: Mack_Character_FINAL:LeftHand
+      position: {x: 0.002915233, y: 0.0037455307, z: 0.000019019908}
+      rotation: {x: 0.019072244, y: -0.008195258, z: -0.25945246, w: 0.9655328}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: Mack_Character_FINAL:LeftHandThumb2
+      parentName: Mack_Character_FINAL:LeftHandThumb1
+      position: {x: 0.0007307942, y: 0.0037260987, z: -1.4980102e-10}
+      rotation: {x: 0.027783385, y: 0.008714361, z: -0.085323855, w: 0.9959277}
+      scale: {x: 0.9999998, y: 1, z: 1.0000002}
+    - name: Mack_Character_FINAL:LeftHandThumb3
+      parentName: Mack_Character_FINAL:LeftHandThumb2
+      position: {x: -0.000081718914, y: 0.0036147963, z: 1.8409656e-11}
+      rotation: {x: 0.00016487949, y: -0.000032682903, z: -0.062651865, w: 0.99803543}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Mack_Character_FINAL:LeftHandThumb4
+      parentName: Mack_Character_FINAL:LeftHandThumb3
+      position: {x: -0.00064907497, y: 0.0028345322, z: -2.5161801e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftHandMiddle1
+      parentName: Mack_Character_FINAL:LeftHand
+      position: {x: 0.000988838, y: 0.011493195, z: -0.0003659524}
+      rotation: {x: 0.05568548, y: 0.004962615, z: -0.011450203, w: 0.99837035}
+      scale: {x: 0.9999999, y: 1.0000006, z: 1.0000002}
+    - name: Mack_Character_FINAL:LeftHandMiddle2
+      parentName: Mack_Character_FINAL:LeftHandMiddle1
+      position: {x: -0.0000301172, y: 0.0042471387, z: 3.0511663e-11}
+      rotation: {x: 0.04106609, y: -0.000009852459, z: 0.0005338209, w: 0.99915636}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000006}
+    - name: Mack_Character_FINAL:LeftHandMiddle3
+      parentName: Mack_Character_FINAL:LeftHandMiddle2
+      position: {x: 0.000011618694, y: 0.0038515038, z: 2.6957893e-11}
+      rotation: {x: 0.015139986, y: -0.00000015562172, z: 0.000000008189625, w: 0.99988544}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.99999994}
+    - name: Mack_Character_FINAL:LeftHandMiddle4
+      parentName: Mack_Character_FINAL:LeftHandMiddle3
+      position: {x: 0.000018498533, y: 0.0029313257, z: -3.9945378e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftHandIndex1
+      parentName: Mack_Character_FINAL:LeftHand
+      position: {x: 0.0031260585, y: 0.011966897, z: -0.00018980216}
+      rotation: {x: 0.0392872, y: 0.0009229182, z: 0.0062382044, w: 0.99920803}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandIndex2
+      parentName: Mack_Character_FINAL:LeftHandIndex1
+      position: {x: -0.000090833455, y: 0.0037279641, z: 5.0384575e-11}
+      rotation: {x: 0.036318526, y: -0.0009029081, z: 0.011664463, w: 0.9992718}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandIndex3
+      parentName: Mack_Character_FINAL:LeftHandIndex2
+      position: {x: 0.000024319223, y: 0.0034293996, z: 8.478285e-13}
+      rotation: {x: 0.039678916, y: 0.0005233796, z: 0.0038113564, w: 0.9992051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftHandIndex4
+      parentName: Mack_Character_FINAL:LeftHandIndex3
+      position: {x: 0.000066514316, y: 0.0028196073, z: -1.703368e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftHandRing1
+      parentName: Mack_Character_FINAL:LeftHand
+      position: {x: -0.0011342949, y: 0.011218196, z: -0.00036011802}
+      rotation: {x: 0.052017383, y: 0.008813, z: -0.008399251, w: 0.998572}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandRing2
+      parentName: Mack_Character_FINAL:LeftHandRing1
+      position: {x: -0.000035936715, y: 0.003754581, z: -4.4405368e-13}
+      rotation: {x: 0.035639595, y: 0.00000008614733, z: -0.0000000019790602, w: 0.9993647}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandRing3
+      parentName: Mack_Character_FINAL:LeftHandRing2
+      position: {x: -0.000010889074, y: 0.0035804207, z: -9.680585e-12}
+      rotation: {x: 0.03849526, y: 0.00037188773, z: 0.005611547, w: 0.99924296}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandRing4
+      parentName: Mack_Character_FINAL:LeftHandRing3
+      position: {x: 0.000046825757, y: 0.0030521043, z: -2.5845547e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mack_Character_FINAL:LeftHandPinky1
+      parentName: Mack_Character_FINAL:LeftHand
+      position: {x: -0.002980602, y: 0.0105515765, z: -0.00043137535}
+      rotation: {x: 0.04633341, y: 0.01101017, z: -0.0014265683, w: 0.99886435}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000001}
+    - name: Mack_Character_FINAL:LeftHandPinky2
+      parentName: Mack_Character_FINAL:LeftHandPinky1
+      position: {x: -0.00003460003, y: 0.003002402, z: -1.3300418e-11}
+      rotation: {x: 0.03757369, y: -0.00020012632, z: 0.006179513, w: 0.99927473}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandPinky3
+      parentName: Mack_Character_FINAL:LeftHandPinky2
+      position: {x: 0.000016952035, y: 0.00257572, z: -6.5961056e-12}
+      rotation: {x: 0.0149383675, y: -0.000000013851649, z: 0.00000005599846, w: 0.9998884}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: Mack_Character_FINAL:LeftHandPinky4
+      parentName: Mack_Character_FINAL:LeftHandPinky3
+      position: {x: 0.000017647997, y: 0.0020457248, z: 3.020204e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
